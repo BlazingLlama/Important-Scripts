@@ -5,6 +5,10 @@ using UnityEngine;
 public class MouseLook : MonoBehaviour
 {
     //MOUSELOOK SCRIPT FOR RBMOVEMENT.CS
+    //MADE BY BLAZINGLLAMA
+    //SCRIPT THAT LETS YOU LOOK AROUND WITH YOUR MOUSE 
+    //FIRST PERSON
+    //NEED HELP SETTING UP? MY DISCORD: BlazingLlama#2782
 
    
    [SerializeField] private float sensX; // X look sensitivity
