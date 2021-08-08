@@ -2,7 +2,11 @@ using UnityEngine;
 
 public class GrapplinGun : MonoBehaviour
 {
-
+    //NOT MINE BUT WORKS WONDERS
+    //MADE BY DANI
+    //NEED HELP SETTING UP? MY DISCORD: BlazingLlama#2782
+    
+    
     private LineRenderer lr;
     private Vector3 grapplePoint;
     public LayerMask whatIsGrappleable;
