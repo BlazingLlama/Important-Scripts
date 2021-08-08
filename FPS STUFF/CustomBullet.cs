@@ -2,6 +2,12 @@
 
 public class CustomBullet : MonoBehaviour
 {
+ 
+    //NOT MINE BUT WORKS WONDERS
+    // CUSTOM BULLET SCRIPT FOR PROJECTILEGUNTUTORIAL.CS THAT LETS YOU CUSTOMIZE BULLETS
+    //NEED HELP SETTING UP? MY DISCORD: BlazingLlama#2782
+    
+    
     //Assignables
     public Rigidbody rb;
     public GameObject explosion;
