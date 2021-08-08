@@ -5,7 +5,8 @@ using UnityEngine;
 public class RBMOVEMENT : MonoBehaviour
 {
     // MOVEMENT SCRIPT NEEDS TO BE PAIRED WITH MOUSELOOK.CS AND MOVECAMERA.CS
-    // MORE INSTRUCTIONS ON MY GITHUB
+    // DONT KNOW HOW TO SET UP? MY DISCORD: BlazingLlama#2782
+    // MADE BY BLAZINGLLAMA
 
 
 
@@ -79,19 +80,21 @@ public class RBMOVEMENT : MonoBehaviour
             Jump();
         }
     }
+    
+    // IF YOU HAVE A JUMP BOOST PAD IN YOUR GAME YOU CAN USE THIS BIT OF THE SCRIPT JUST REMOVE THE "//" ON THE LINES BELOW
 
-    void OnCollisionEnter(Collision Colinfo) //JumpPad Script
-    {
-        Debug.Log(Colinfo.collider.tag);
-        if (Colinfo.collider.tag == "JumpBoost" && jumpForce <= JumpOnPad)
-        {
-            jumpForce += jumpBoost;
-        }
-        else if (Colinfo.collider.tag != "JumpBoost" && jumpForce >= JumpOnPad)
-        {
-            jumpForce -= jumpBoost;
-        }
-    }
+    //void OnCollisionEnter(Collision Colinfo) 
+   // {
+    //    
+     //   if (Colinfo.collider.tag == "JumpBoost" && jumpForce <= JumpOnPad)
+     //   {
+     //       jumpForce += jumpBoost;
+     //   }
+     //   else if (Colinfo.collider.tag != "JumpBoost" && jumpForce >= JumpOnPad)
+     //   {
+     //       jumpForce -= jumpBoost;
+     //   }
+    //}
 
     void MyInput() // Gets player Input
     {
